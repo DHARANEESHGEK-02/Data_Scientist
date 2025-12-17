@@ -1,0 +1,51 @@
+ID,Name,Age,Gender,City,Major,GPA,Credits_Completed
+1,Aarav Sharma,20,Male,Mumbai,Computer Science,3.45,45
+2,Priya Patel,19,Female,Bengaluru,Economics,3.72,38
+3,Rahul Kumar,21,Male,Delhi,Data Science,3.28,52
+4,Anika Singh,20,Female,Kolkata,Engineering,3.89,41
+5,Vikram Reddy,22,Male,Hyderabad,Finance,3.12,60
+6,Neha Gupta,19,Female,Pune,Psychology,3.65,32
+7,Arjun Mehta,21,Male,Chennai,Mathematics,3.50,48
+8,Sneha Joshi,20,Female,Ahmedabad,Biology,3.78,44
+9,Karan Desai,22,Male,Jaipur,Physics,3.33,55
+10,Divya Nair,19,Female,Thiruvananthapuram,Chemistry,3.91,35
+11,Akash Yadav,20,Male,Lucknow,Information Systems,3.42,46
+12,Riya Bose,21,Female,Bhopal,Statistics,3.69,50
+13,Siddharth Iyer,22,Male,Indore,Machine Learning,3.25,58
+14,Meera Khan,19,Female,Patna,Business,3.80,39
+15,Rohan Mishra,20,Male,Agra,Accountancy,3.55,43
+16,Tara Venkatesh,21,Female,Madurai,English,3.67,47
+17,Nikhil Rao,22,Male,Vijayawada,History,3.30,53
+18,Lakshmi Menon,20,Female,Coimbatore,Sociology,3.85,40
+19,Aditya Malhotra,19,Male,Amritsar,Philosophy,3.48,36
+20,Shreya Agarwal,21,Female,Varanasi,Art,3.76,49
+21,Dev Kapoor,22,Male,Jabalpur,Marketing,3.35,51
+22,Kavya Suresh,20,Female,Mangalore,Design,3.82,42
+23,Aryan Bhatia,21,Male,Nagpur,Law,3.52,57
+24, Pooja Thakur,19,Female,Raipur,Education,3.70,33
+25,Manish Solanki,20,Male,Ranchi,Geology,3.40,45
+26,Swati Dubey,22,Female,Guwahati,Anthropology,3.88,54
+27,Vivek Pandey,21,Male,Bhagalpur,Political Science,3.31,37
+28,Radhika Jain,20,Female,Gwalior,Theatre,3.64,48
+29,Saurabh Saxena,19,Male,Kanpur,Architecture,3.46,41
+30,Esha Roy,22,Female,Dhanbad,Nursing,3.79,56
+31,Kunal Sethi,20,Male,Jamshedpur,Medicine,3.27,44
+32,Anjali Pillai,21,Female,Kozhikode,Pharmacy,3.73,50
+33,Rishi Nair,22,Male,Salem,Biotech,3.54,52
+34,Malini Das,19,Female,Faridabad,Environmental Science,3.81,34
+35,Tejas Pawar,20,Male,Ghaziabad,Agriculture,3.39,46
+36,Urvi Chadha,21,Female,Ludhiana,Food Tech,3.66,43
+37,Omkar Bedi,22,Male,Jalandhar,Sports Science,3.32,59
+38,Simran Kaur,20,Female,Amritsar,Fashion Design,3.87,38
+39,Yash Verma,19,Male,Meerut,Journalism,3.51,47
+40,Nidhi Chopra,21,Female,Moradabad,Public Health,3.68,40
+41,Gaurav Kohli,22,Male,Aligarh,Hospitality,3.34,55
+42,Trisha Lobo,20,Female,Mangaluru,Tourism,3.84,42
+43,Amit Rana,21,Male,Hisar,Forestry,3.49,49
+44,Deepika Rawat,19,Female,Haldwani,Veterinary,3.71,36
+45,Sumanth Hegde,20,Male,Udupi,Astronomy,3.43,51
+46,Vaishnavi Shetty,22,Female,Belgaum,Music,3.77,45
+47,Rajiv Lobo,21,Male,Goa,Event Management,3.36,53
+48,Shalini Pinto,20,Female,Shimoga,Linguistics,3.83,39
+49,Karthik Dsouza,19,Male,Mysore,Film Studies,3.47,44
+50,Preeti Correa,22,Female,Kasaragod,Dance,3.75,58
