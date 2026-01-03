@@ -1,65 +1,98 @@
- Data Scientist Learning Repository
+# Day Topics - Data Science Learning Path (Days 1-10)
 
-This repository documents a comprehensive journey through data science fundamentals, machine learning algorithms, and practical projects. It features daily topics with Jupyter notebooks, Streamlit applications, and assignments covering NumPy, scikit-learn, clustering, regression, and computer vision.[1]
+Structured 10-day curriculum covering data science fundamentals to intermediate ML. Each day includes Jupyter notebooks, code demos, datasets, and Streamlit apps for hands-on practice. Track progress with daily commits.[1]
 
-Organized as a 2nd-year Information Systems student's hands-on portfolio for skill-building and placement preparation.
+## 📋 Table of Contents (Days 1-10)
 
- 📁 Repository Structure
+- [Day 1: Python & NumPy](#day-1-python--numpy)
+- [Day 2: Pandas & Data Cleaning](#day-2-pandas--data-cleaning)
+- [Day 3: EDA & Visualization](#day-3-eda--visualization)
+- [Day 4: ML Libraries Intro](#day-4-ml-libraries-intro)
+- [Day 5: Preprocessing Pipelines](#day-5-preprocessing-pipelines)
+- [Day 6: Classification Algorithms](#day-6-classification-algorithms)
+- [Day 7: Regression Models](#day-7-regression-models)
+- [Day 8: Clustering & Dimensionality](#day-8-clustering--dimensionality)
+- [Day 9: Model Evaluation](#day-9-model-evaluation)
+- [Day 10: Streamlit Deployment](#day-10-streamlit-deployment)
 
-- **Day_topics/**: Daily Jupyter notebooks and code examples
-  - Day 3: EDA, preprocessing, visualization, Python ML libraries
-  - Clustering (K-Means on Mall Customers), model evaluation[2][3]
-- **Assignments/**: Coursework and practical exercises
-- Root files: Standalone demos like `app.py`, `demo.py`[1]
+## Day 1: Python & NumPy {#day-1-python--numpy}
 
-🛠️ Key Technologies & Skills Demonstrated
+**Focus**: Array operations, broadcasting, linear algebra  
+**Files**: `numpy_demo.py`, `arrays_intro.ipynb`
+**Run**: `python Day1/numpy_intro.py`
 
-- **Languages**: Python (primary), SQL
-- **Libraries**:
-  | Category | Tools |
-  |----------|-------|
-  | Data Manipulation | NumPy, pandas  |
-  | ML Algorithms | scikit-learn (KNN, SVM, Decision Trees, Random Forest, Logistic Regression, Naive Bayes, K-Means) [4] |
-  | Visualization | Matplotlib, Seaborn, Plotly, Streamlit [2] |
-  | Computer Vision | OpenCV  |
-- **Projects**:
-  - Mall Customer Segmentation (K-Means, elbow method, centroids)[3][2]
-  - Random Forest House Price Predictor (Streamlit app)[5]
-  - Face Recognition (Virat Kohli dataset, 162 images)
-  - Image Classification
+## Day 2: Pandas & Data Cleaning {#day-2-pandas--data-cleaning}
 
-🚀 Quick Start
+**Focus**: DataFrames, missing values, merging, grouping  
+**Files**: `pandas_eda.ipynb`, Mall_Customers.csv  
+**Key**: `df.fillna()`, `pd.merge()`
 
-1. Clone the repo:  
-   ```bash
-   git clone https://github.com/DHARANEESHGEK-02/Data_Scientist.git
-   cd Data_Scientist
-   ```
+## Day 3: EDA & Visualization {#day-3-eda--visualization}
 
-2. Create virtual environment (Ubuntu/Linux):  
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate
-   pip install -r requirements.txt  # If provided per project
-   ```
+**Focus**: Histograms, scatter plots, correlation heatmaps[1]
+**Files**: `eda_workflow.ipynb`, Seaborn templates  
+**Libs**: Matplotlib, Seaborn, Plotly
 
-3. Run examples:
-   - Streamlit apps: `streamlit run app.py` or `streamlit run k_means.py`
-   - Jupyter: `jupyter notebook Day_topics/DayX/*.ipynb`
+## Day 4: ML Libraries Intro {#day-4-ml-libraries-intro}
 
-📊 Example: K-Means Clustering (Mall Customers)
+**Focus**: scikit-learn basics, train-test split  
+**Files**: `sklearn_intro.ipynb`  
+**Code**: `train_test_split(X, y, test_size=0.2)`
 
-Interactive Streamlit app for customer segmentation:
-- Upload CSV → EDA → Elbow plot (optimal k=5) → Visualize clusters + centroids[6]
-- Fixed scaling: `scaler.inverse_transform(kmeans.cluster_centers_)` for accurate plots[3]
+## Day 5: Preprocessing Pipelines {#day-5-preprocessing-pipelines}
 
- 📈 Model Evaluation Highlights
+**Focus**: StandardScaler, LabelEncoder, ColumnTransformer[2]
+**Files**: `preprocessing_pipeline.py`  
+**Demo**: Housing dataset scaling
 
-- Classification: Confusion matrices, Gini/Entropy impurity
-- Regression: R² scores (e.g., 0.98 on house prices)[5]
-- Preprocessing: StandardScaler, feature engineering
+## Day 6: Classification Algorithms {#day-6-classification-algorithms}
 
-🤝 Contributing
+**Focus**: Logistic Regression, KNN, Decision Trees
+**Files**: `classification_models.ipynb`  
+**Metrics**: Accuracy, Precision, Recall
 
-Fork, create a branch, add your notebooks/apps, and submit a PR. Focus on daily topics or new ML projects.
+## Day 7: Regression Models {#day-7-regression-models}
+
+**Focus**: Linear Regression, Random Forest Regressor[3]
+**Files**: `house_price_predictor.py` (R²=0.98)  
+**Dataset**: Home_final.csv
+
+## Day 8: Clustering & Dimensionality {#day-8-clustering--dimensionality}
+
+**Focus**: K-Means, Elbow method (k=5), PCA[4][5]
+**Files**: `k_means_streamlit.py`  
+**Demo**: Mall customer segments + centroids
+
+## Day 9: Model Evaluation {#day-9-model-evaluation}
+
+**Focus**: Confusion Matrix, Cross-Validation, ROC curves
+**Files**: `model_metrics.ipynb`  
+**Advanced**: Gini vs Entropy impurity
+
+## Day 10: Streamlit Deployment {#day-10-streamlit-deployment}
+
+**Focus**: Interactive apps, requirements.txt, Cloud deploy[6]
+**Files**: `requirements.txt`, full apps folder  
+**Run**: `streamlit run Day10/final_app.py`
+
+## 🏃‍♂️ Complete Setup
+
+```bash
+cd Day_topics
+python -m venv .venv
+source .venv/bin/activate  # Linux
+pip install numpy pandas scikit-learn streamlit plotly seaborn matplotlib opencv-python jupyter
+jupyter lab  # Edit all notebooks
+```
+
+**Per-Day Requirements**: Check each folder's `requirements.txt`
+
+## 📊 Progress Tracker
+
+| Day | Status | Key Achievement | Streamlit Demo |
+|-----|--------|-----------------|---------------|
+| 1 | ✅ | NumPy 3D arrays | - |
+| 2 | ✅ | Pandas pipeline | [View CSV EDA](Day2) |
+| 3 | ✅ | Plotly dashboards | [Day3](Day3) |
+| 4-10 | 🔄 | In progress | Deploy after completion |
 
